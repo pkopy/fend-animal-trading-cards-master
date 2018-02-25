@@ -1,9 +1,5 @@
 /* add your CSS here */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: rgb(237, 241, 241);
 }
@@ -38,27 +34,19 @@ h1{
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(240, 240, 240);
-    
-    /* max-height: 300px; */
+    padding: 0.5em;
 }
 #nitka{
-    height: 340px;
+    height: 360px;
 }
 #dave{
-    height: 340px;
+    height: 350px;
 }
-/* #image {
-    border: 1px solid rgb(209, 208, 208);
-    border-radius: 10px;
-} */
 img {
     margin: 0.5em;
     display: block;
     border-radius: 10px;
-    /* border-bottom-left-radius: 15px; */
     max-width: 300px;
-    /* max-height: 250px; */
-    /* padding-bottom: 8px; */
 } 
 .fact {
     font-style: italic;
